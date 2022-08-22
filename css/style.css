@@ -29,6 +29,9 @@ body{
 .banner-text{
     margin-top: 100px;
 }
+.banner-text-img{
+    text-align: right;
+}
 .banner-text h1{
     font-family: 'Berkshire Swash';
     color:#FF5E19;
@@ -50,7 +53,7 @@ body{
     letter-spacing:1px;
 }
 .banner-img-two img {
-	margin-left: -68px;
+	margin-left: -20px;
 }
 .banner-img-three img {
 	margin-top:39px;
@@ -62,6 +65,7 @@ body{
 /* Player part start */
 #player{
     margin-top: 70px;
+    margin-bottom:100px;
 }
 .card-body{
     text-align: center;
@@ -139,4 +143,66 @@ body{
 }
 .player-select-main-two{
     margin-top:24px;
+}
+
+/* player amount */
+.player-amount h1{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AFAFAF;
+    margin-left: 10px;
+}
+.per-player-price h1 {
+	font-family: 'Manrope';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	padding: 10px 18px 10px;
+	border: 1px solid #FFFFFF;
+	margin-top: -10px;
+	margin-left: -28px;
+}
+.calculate-part h1 {
+	font-family: 'Manrope';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #015196;
+	margin-left: 10px;
+	padding: 10px;
+	margin-right: -12px;
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+.per-player-price-two h1{
+    border:inherit;
+}
+.per-player-price-three h1 {
+	margin-left: -19px;
+	padding: 10px 16px;
+	margin-right: -8px;
+}
+.per-player-price-four h1{
+    border:inherit;
+}
+/* footter part start */
+footer h1{
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+hr{
+    
+    background-color: #fff;
 }
