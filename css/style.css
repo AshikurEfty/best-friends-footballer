@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-emphasis: none;
+}
+body{
+    
+    background-color: #151515;
+}
+.row {
+	margin-right: 0px;
+}
+/* Banner part start */
+#banner{
+    background-color:black;
+    padding-top: 50px;
+}
+.banner-one{
+    margin-left: 0px;
+}
+.banner-one img{
+    margin-bottom:-25px;
+}
+.banner-text{
+    margin-top: 100px;
+}
+.banner-text h1{
+    font-family: 'Berkshire Swash';
+    color:#FF5E19;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 94px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.banner-text p{
+    font-family: 'Manrope';
+    color:#ffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing:1px;
+}
+.banner-img-two img {
+	margin-left: -68px;
+}
+.banner-img-three img {
+	margin-top:39px;
+}
+.banner-img-four img{
+    margin-top:-50px;
+}
+
+/* Player part start */
+#player{
+    margin-top: 70px;
+}
+.card-body{
+    text-align: center;
+    background-color: black;
+}
+.card-body h5{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left:8px;
+}
+.card-body p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #B3B3B3;
+}
+.card-body a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.card {
+	border:inherit;
+}
+.player-one{
+    margin-bottom:24px;
+}
+.card{
+    margin-left:10px;
+}
+.btn-primary {
+	padding: 10px 70px;
+}
+
+/* player-select part start */
+.player-select-main{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.player-select{
+    padding-bottom:36px;
+    text-align:center;
+}
+.player-select h6{
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    padding-top:22px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.player-select h1,h2,h3,h4,h5{
+    text-align: left;
+    padding-top:10px;
+    padding-left:25px;
+    padding-bottom: 10px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    word-spacing: 15px;
+    color: #FFFFFF;
+}
+.player-select-main-two{
+    margin-top:24px;
+}
