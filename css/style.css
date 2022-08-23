@@ -2,9 +2,9 @@
     padding:0;
     margin:0;
 }
-ol,ul{
+/* ol,ul{
     list-style-type: none;
-}
+} */
 a{
     text-emphasis: none;
 }
@@ -61,6 +61,13 @@ body{
 .banner-img-four img{
     margin-top:-50px;
 }
+.banner-three{
+    position:relative;
+}
+.banner-img-three img {
+	position: absolute;
+	right: -24px;
+}
 
 /* Player part start */
 #player{
@@ -71,11 +78,13 @@ body{
     text-align: center;
     background-color: black;
 }
-.card-body h5{
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 33px;
-    margin-left:8px;
+.card-body h5 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 33px;
+	margin-left: 8px;
+	word-spacing: 0px;
+	color: #ffff;
 }
 .card-body p{
     font-family: 'Manrope';
@@ -86,7 +95,7 @@ body{
     text-align: center;
     color: #B3B3B3;
 }
-.card-body a{
+.card-body button{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -118,17 +127,16 @@ body{
     padding-bottom:36px;
     text-align:center;
 }
-.player-select h6{
-    font-family: 'Manrope';
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 33px;
-    padding-top:22px;
-    text-align: center;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
+.player-select h6 {
+	font-family: 'Manrope';
+	font-weight: 600;
+	font-size: 24px;
+	padding-top: 22px;
+	text-align: center;
+	letter-spacing: -0.03em;
+	color: #FFFFFF;
 }
-.player-select h1,h2,h3,h4,h5{
+.player-select {
     text-align: left;
     padding-top:10px;
     padding-left:25px;
@@ -141,8 +149,17 @@ body{
     word-spacing: 15px;
     color: #FFFFFF;
 }
-.player-select-main-two{
-    margin-top:24px;
+.player-select img {
+	margin-left: 38px;
+	padding-bottom: 20px;
+}
+.player-select-main {
+	height: 348px;
+}
+.player-select-main-two {
+    height: inherit;
+	margin-top: 24px;
+	padding-bottom: 10px;
 }
 
 /* player amount */
@@ -165,6 +182,11 @@ body{
 	margin-top: -10px;
 	margin-left: -28px;
 }
+.per-player-price h1 input{
+        width: 110px;
+        margin-left: -10px;
+        padding: 0px 1px 0px 5px;
+}
 .calculate-part h1 {
 	font-family: 'Manrope';
 	font-weight: 700;
@@ -181,6 +203,7 @@ body{
 }
 .per-player-price-two h1{
     border:inherit;
+    color:#FF5E19;
 }
 .per-player-price-three h1 {
 	margin-left: -19px;
@@ -189,6 +212,7 @@ body{
 }
 .per-player-price-four h1{
     border:inherit;
+    color:#FF5E19;
 }
 /* footter part start */
 footer h1{

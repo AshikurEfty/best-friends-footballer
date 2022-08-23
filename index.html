@@ -49,7 +49,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 banner-three">
                   <div class="banner-img-three">
                     <img src="images/banner3.png" alt="banner3" />
                   </div>
@@ -77,9 +77,11 @@
                       alt="player1"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Lionel Messi</h5>
+                      <h5 id="messi-name" class="card-title">Lionel Messi</h5>
                       <p class="card-text">36 Goals . 120 Assist</p>
-                      <a href="#" class="btn btn-primary">SELECT</a>
+                      <button id="select-button-one" class="btn btn-primary">
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -93,9 +95,11 @@
                       alt="player2"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Neymar Jr</h5>
+                      <h5 id="neymar-name" class="card-title">Neymar Jr</h5>
                       <p class="card-text">36 Goals . 120 Assist</p>
-                      <a href="#" class="btn btn-primary">SELECT</a>
+                      <button id="select-button-two" class="btn btn-primary">
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -109,9 +113,11 @@
                       alt="player3"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Kylian Mbappé</h5>
+                      <h5 id="kylian-name" class="card-title">Kylian Mbappé</h5>
                       <p class="card-text">36 Goals . 120 Assist</p>
-                      <a href="#" class="btn btn-primary">SELECT</a>
+                      <button id="select-button-three" class="btn btn-primary">
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -125,9 +131,11 @@
                       alt="player4"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Vítor Machado</h5>
+                      <h5 id="victor-name" class="card-title">Vítor Machado</h5>
                       <p class="card-text">36 Goals . 120 Assist</p>
-                      <a href="#" class="btn btn-primary">SELECT</a>
+                      <button id="select-button-four" class="btn btn-primary">
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -141,9 +149,11 @@
                       alt="player5"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Sergio Ramos</h5>
+                      <h5 id="sergio-name" class="card-title">Sergio Ramos</h5>
                       <p class="card-text">36 Goals . 120 Assist</p>
-                      <a href="#" class="btn btn-primary">SELECT</a>
+                      <button id="select-button-five" class="btn btn-primary">
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -157,9 +167,11 @@
                       alt="player6"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Ashikur Efty</h5>
+                      <h5 id="efty-name" class="card-title">Ashikur Efty</h5>
                       <p class="card-text">15 Goals . 12 Assist</p>
-                      <a href="#" class="btn btn-primary">SELECT</a>
+                      <button id="select-button-six" class="btn btn-primary">
+                        SELECT
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -173,11 +185,8 @@
                 <div class="player-select">
                   <h6>Selected - V</h6>
                   <img src="images/line2.png" alt="line2" />
-                  <h1>1. <span> ashikur</span></h1>
-                  <h2>2. <span> ashikur</span></h2>
-                  <h3>3. <span> ashikur</span></h3>
-                  <h4>4. <span> ashikur</span></h4>
-                  <h5>5. <span> ashikur</span></h5>
+
+                  <ol id="added-main"></ol>
                 </div>
               </div>
             </div>
@@ -197,7 +206,9 @@
                       </div>
                       <div class="col-lg-6">
                         <div class="per-player-price">
-                          <h1>10000</h1>
+                          <h1>
+                            <input id="price-input-field" type="number" />
+                          </h1>
                         </div>
                       </div>
                     </div>
@@ -205,12 +216,12 @@
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="calculate-part">
-                        <h1>Calculate</h1>
+                        <h1 id="calculate">Calculate</h1>
                       </div>
                     </div>
                   </div>
 
-                  <div class="row">
+                  <div class="row pb-2">
                     <div class="col-lg-9">
                       <div class="player-amount player-amount-two">
                         <h1>Player Expenses:</h1>
@@ -218,7 +229,7 @@
                     </div>
                     <div class="col-lg-3">
                       <div class="per-player-price per-player-price-two">
-                        <h1>$<span>10000</span></h1>
+                        <h1>$<span id="expenses-price">000</span></h1>
                       </div>
                     </div>
                   </div>
@@ -231,7 +242,9 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="per-player-price per-player-price-three">
-                        <h1>10000</h1>
+                        <h1>
+                          <input id="manager-input-field" type="number" />
+                        </h1>
                       </div>
                     </div>
                   </div>
@@ -244,7 +257,9 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="per-player-price per-player-price-three">
-                        <h1>10000</h1>
+                        <h1>
+                          <input id="coach-input-field" type="number" />
+                        </h1>
                       </div>
                     </div>
                   </div>
@@ -252,7 +267,7 @@
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="calculate-part">
-                        <h1>Calculate Total</h1>
+                        <h1 id="calculate-total">Calculate Total</h1>
                       </div>
                     </div>
                   </div>
@@ -265,7 +280,7 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="per-player-price per-player-price-four">
-                        <h1>$<span>10000</span></h1>
+                        <h1>$ <span id="total-price"> 000</span></h1>
                       </div>
                     </div>
                   </div>
@@ -285,6 +300,7 @@
     <!--============== footer part End ================= -->
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
     <script src="js/best.js"></script>
   </body>
 </html>
