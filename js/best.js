@@ -1,4 +1,6 @@
 // ======== select player js part ========
+
+// click of button
 const playerList = document.getElementById("added-main");
 document.getElementById('select-button-one').addEventListener('click', function(){
   document.getElementById('select-button-one').disabled = 'true';
@@ -75,6 +77,9 @@ document.getElementById('select-button-six').addEventListener('click', function(
 
   // =========== calculate js part =============
 
+
+  // create common function
+
 function getCalculateTotalPrice(){
   const inputField = document.getElementById('price-input-field');
   const calculatePrice = inputField.value;
@@ -91,19 +96,27 @@ function getCalculateTotalPrice(){
   })
 
   document.getElementById('calculate-total').addEventListener('click', function(){
-    const managerInputField = document.getElementById('manager-input-field');
+    // input field of manager
+
+    const managerInputField = document.getElementById('manager-input-field'); 
     const managerPriceString = managerInputField.value;
     const newManagerPrice = parseFloat(managerPriceString);
     managerInputField.value = '';
     
+    // input field of coach
+
     const coachInputField = document.getElementById('coach-input-field');
     const coachPriceString = coachInputField.value;
     const newcoachPrice = parseFloat(coachPriceString);
     coachInputField.value = '';
-  
+    
+    // collect expenses price
+
     const mainPrice = document.getElementById('expenses-price');
     const mainpriceString = mainPrice.innerText;
     const mainPriceNew = parseFloat(mainpriceString);
+
+    // total price count
 
     const totalPrice = newManagerPrice + newcoachPrice + mainPriceNew;
     const mainTotalPrice = document.getElementById('total-price');
