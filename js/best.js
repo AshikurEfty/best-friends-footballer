@@ -73,52 +73,6 @@ document.getElementById('select-button-six').addEventListener('click', function(
   }
 });
 
-
-
-// function addedName(collectName){
-//   const createElement = document.createElement('ol');
-//   createElement.appendChild('li');
-//   const addedName = document.getElementById('added-name');
-//   const collectNameString = collectName.textContent;
-//   const previousCollectName = collectNameString;
-//   addedName.innerText= previousCollectName;
-// }
-
-//   document.getElementById('select-button-one').addEventListener('click', function(){
-//     document.getElementById('select-button-one').disabled = 'true';
-//     const collectName = document.getElementById('messi-name');
-//     addedName(collectName);
-//     DisableNextButton();
-//   })
-
-//   document.getElementById('select-button-two').addEventListener('click', function(){
-//     document.getElementById('select-button-two').disabled = 'true';
-//     const collectName = document.getElementById('neymar-name');
-//     addedName(collectName);
-//     DisableNextButton();
-//   })
-
-//   document.getElementById('select-button-three').addEventListener('click', function(){
-//     document.getElementById('select-button-three').disabled = 'true';
-//     const collectName = document.getElementById('kylian-name');
-//     addedName(collectName);
-//   })
-//   document.getElementById('select-button-four').addEventListener('click', function(){
-//     document.getElementById('select-button-four').disabled = 'true';
-//     const collectName = document.getElementById('victor-name');
-//     addedName(collectName);
-//   })
-//   document.getElementById('select-button-five').addEventListener('click', function(){
-//     document.getElementById('select-button-five').disabled = 'true';
-//     const collectName = document.getElementById('sergio-name');
-//     addedName(collectName);
-//   })
-//   document.getElementById('select-button-six').addEventListener('click', function(){
-//     document.getElementById('select-button-six').disabled = 'true';
-//     const collectName = document.getElementById('efty-name');
-//     addedName(collectName);
-//     })
-
   // =========== calculate js part =============
 
 function getCalculateTotalPrice(){
