@@ -127,4 +127,6 @@ function getCalculateTotalPrice(){
     const mainTotalPrice = document.getElementById('total-price');
     mainTotalPrice.innerText = totalPrice;
   })
+  
+  //finish
 
