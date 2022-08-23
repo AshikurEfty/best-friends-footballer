@@ -1,6 +1,6 @@
 // ======== select player js part ========
 
-// click of button
+// click of button number one
 const playerList = document.getElementById("added-main");
 document.getElementById('select-button-one').addEventListener('click', function(){
   document.getElementById('select-button-one').disabled = 'true';
@@ -14,6 +14,7 @@ document.getElementById('select-button-one').addEventListener('click', function(
     alert('You can select only 5 Players')
   }
 })
+// select click button of two number
 document.getElementById('select-button-two').addEventListener('click', function(){
   document.getElementById('select-button-two').disabled = 'true';
   if(playerList.childElementCount < 5){
@@ -27,6 +28,7 @@ document.getElementById('select-button-two').addEventListener('click', function(
   }
     
 })
+// select click button of three number
 document.getElementById('select-button-three').addEventListener('click', function(){
   document.getElementById('select-button-three').disabled = 'true';
   if(playerList.childElementCount < 5){
@@ -38,7 +40,8 @@ document.getElementById('select-button-three').addEventListener('click', functio
   else{
     alert('You can select only 5 Players')
   }
-});   
+});
+// select click button of four number    
 document.getElementById('select-button-four').addEventListener('click', function(){
   document.getElementById('select-button-four').disabled = 'true';
   if(playerList.childElementCount < 5){
@@ -51,6 +54,7 @@ document.getElementById('select-button-four').addEventListener('click', function
     alert('You can select only 5 Players')
   }
 });
+// select click button of five number 
 document.getElementById('select-button-five').addEventListener('click', function(){
   document.getElementById('select-button-five').disabled = 'true';
   if(playerList.childElementCount < 5){
@@ -63,6 +67,7 @@ document.getElementById('select-button-five').addEventListener('click', function
     alert('You can select only 5 Players')
   }
 });
+// select click button of six number 
 document.getElementById('select-button-six').addEventListener('click', function(){
   if(playerList.childElementCount < 5){
     const node = document.createElement("li");
