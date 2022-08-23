@@ -69,6 +69,7 @@ document.getElementById('select-button-five').addEventListener('click', function
 });
 // select click button of six number 
 document.getElementById('select-button-six').addEventListener('click', function(){
+  document.getElementById('select-button-six').disabled = 'true';
   if(playerList.childElementCount < 5){
     const node = document.createElement("li");
     const textnode = document.getElementById("efty-name");
